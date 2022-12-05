@@ -1,3 +1,3 @@
-# Ruzim.github.io
+# ruzim.github.io
 
 My personal web pages
