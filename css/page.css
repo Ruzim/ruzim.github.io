@@ -124,6 +124,10 @@ section#main, section#blog {
     vertical-align: top;
 }
 
+article.blog {
+    font-size: 90%;
+}
+
 article#publicationList {
     font-size: 90%;
 }
