@@ -23,9 +23,6 @@ blockquote {
 }
 
 .fancy_box {
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
     background-color: #a7cece;
     padding: 25px;
     padding-left: 100px;
@@ -44,12 +41,46 @@ blockquote {
     background-position: top left;
 }
 
-.paper_title {
+span.paper_title {
     font-style: italic;
+    font-weight: bold;
+    color: darkblue;
 }
 
-.paper_authors {
+span.paper_authors {
+    font-weight: normal;
+}
+
+span.my_name {
+    color:purple;
     font-weight: bold;
+}
+
+span.journal_name {
+    font-style: normal;
+}
+span.volume_number {
+    font-weight: bold;
+}
+
+span.issue_number {
+    font-weight: normal;
+}
+span.page_number {
+    font-weight: normal;
+}
+
+span.published_year {
+    font-size: 100%;
+}
+
+div.sub_note {
+    font-size: 80%;
+    width: 50%;
+    text-align: center;
+    border-top: solid;
+    border-top-width: 1px;
+    float:right;
 }
 
 header {
@@ -91,6 +122,10 @@ section#main, section#blog {
     background-position: top left;
     padding: 15px;
     vertical-align: top;
+}
+
+article#publicationList {
+    font-size: 90%;
 }
 
 section#info {
