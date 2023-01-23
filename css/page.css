@@ -10,7 +10,7 @@ h1, h2 {
     color: gray;
 }
 h1 {
-    font-size: 140%;
+    font-size: 130%;
     border-bottom: 2px solid black;
     color: midnightblue;
 }
@@ -128,7 +128,7 @@ article.blog {
     font-size: 90%;
 }
 
-article#publicationList {
+article.publication_list {
     font-size: 90%;
 }
 
