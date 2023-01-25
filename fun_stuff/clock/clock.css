@@ -87,6 +87,7 @@ main #_minute {
     width: 9px;
     height: 110px;
     background-color: #a7cece;
+    border-radius: 2%;
     box-shadow: 0 0 10px #444444;
     transform: translateY(-100%);
     transform-origin: center bottom;
@@ -102,4 +103,13 @@ main #_sec {
     box-shadow: 0 0 10px #444444;
     transform: translateY(-100%);
     transform-origin: center bottom;
+}
+
+main #bolt {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #a7cece;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #444444;
 }
