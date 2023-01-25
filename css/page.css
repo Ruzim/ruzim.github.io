@@ -10,13 +10,18 @@ h1, h2 {
     color: gray;
 }
 h1 {
-    font-size: 130%;
+    font-size: 120%;
     border-bottom: 2px solid black;
     color: midnightblue;
 }
 
 h2 {
-    font-size: 120%;
+    font-size: 110%;
+    color: gray;
+}
+h3 {
+    font-size: 100%;
+    color:#954b4b;
 }
 blockquote {
     font-style: italic;
@@ -80,7 +85,7 @@ div.sub_note {
     text-align: center;
     border-top: solid;
     border-top-width: 1px;
-    float:right;
+    float:left;
 }
 
 header {
@@ -124,8 +129,16 @@ section#main, section#blog {
     vertical-align: top;
 }
 
+main {
+    display: table-cell;
+    background-color: #efe5d0;
+    background-position: top left;
+    padding: 15px;
+    vertical-align: top;
+}
+
 article.blog {
-    font-size: 90%;
+    font-size: 100%;
 }
 
 article.publication_list {
