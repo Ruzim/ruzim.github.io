@@ -37,7 +37,7 @@ var placesForRoll =
 '五教5102','五教5103','五教5104','五教5106','五教5107','五教5201','五教5202','五教5203',
 '五教5204','五教5205','五教5206','五教5207','五教5301','五教5302','五教5303','五教5304',
 '五教5305','五教5306','五教5307','五教5401','五教5402','五教5403','五教5404','五教5405',
-'五教5406','五教5407','五教5501','五教5502','五教5503','五教5504','五教5505'];
+'五教5406','五教5407','五教5501','五教5502','五教5503','五教5504','五教5505','云端自习室(校友)'];
 
 var placesForBarrage = ['三教A楼','也西湖小亭子','天鹅窝','鸣蛙听月','气膜馆','加速器',
 '西区图书馆','生命科学大楼里面的咖啡厅','三教B楼','三教C楼','芦花映月','西区专家楼','五教',
@@ -85,8 +85,8 @@ oButton.onclick = function() {
 let barrageOnScreen=() => {
     if (elementsForBarrage.length>=200) {return 1;}
     let randPlace = placesForBarrage[Math.floor(Math.random() * placesForBarrage.length)];
-    let y = Math.ceil(Math.random() * document.documentElement.clientHeight); 
-    let x = Math.ceil(Math.random() * (document.documentElement.clientWidth - 50));
+    let y = Math.ceil(Math.random() * (document.documentElement.clientHeight-50)); 
+    let x = Math.ceil(Math.random() * (document.documentElement.clientWidth - 100));
     let fontSize = Math.ceil(Math.random() * (37 - 11) + 11);
     let color = randomHexColor();
     let tempSticker = document.createElement("span");
@@ -129,7 +129,7 @@ function fadeIn(element) {
         }
         element.style.opacity = initOpacity;
         element.style.filter = 'alpha(opacity=' + initOpacity * 100 + ")";
-        initOpacity += 0.02;
+        initOpacity += 0.04;
         //console.log(" fadeIn, opacity= "+ element.style.opacity);
       }, 200);
 } 

@@ -38,7 +38,7 @@ body {
 button#buttonRoll {
     grid-area: button_zone;
     width: 200px;
-    height: 40px;
+    height: 60px;
     background-color: #ccc;
     justify-self: center;
     align-self: center;
