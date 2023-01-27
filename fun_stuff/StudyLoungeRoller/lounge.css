@@ -1,0 +1,50 @@
+body {
+    background-color:bisque;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: Verdana, "微软雅黑", Tahoma, sans-serif;
+    font-size: medium;
+    grid-template-rows: 60px 100px 100px;
+    grid-template-columns: 500px;
+    grid-template-areas: 'prompt_message_zone' 'info_zone' 'button_zone';
+}
+
+#promptMessage {
+    grid-area: prompt_message_zone;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+#rollDisplay {
+    grid-area: info_zone;
+    width: 500px;
+    height: 50px;
+    color:blueviolet;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+button#buttonRoll {
+    grid-area: button_zone;
+    width: 200px;
+    height: 40px;
+    background-color: #ccc;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444444;
+}
