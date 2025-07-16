@@ -79,6 +79,10 @@ span.published_year {
     font-size: 100%;
 }
 
+span.doi {
+    color: blue;
+}
+
 div.sub_note {
     font-size: 80%;
     width: 50%;
